@@ -3,9 +3,7 @@
 .debug
 {
   *
-  {
-    border: 1px dashed red;
-  }
+  
   
   :root {
     --lightblue: #add8e6;
@@ -37,7 +35,7 @@
 
   .container-sm
   {
-    background-color: lightyellow;
+    background-color: light;
     min-height: 300px;
 
   }
@@ -98,7 +96,7 @@
   max-width: 900px;
   width: 65%;
   margin: 0 auto;
-}
+  }
 
 
 .d-flex
@@ -128,17 +126,29 @@ section
 header
 {
   padding: 1rem 0;
-  background-color: var(--dis-bg-primary);
+  background-color:#255ee9;
 
   .logo,
   .login
   {
     flex-grow: 1;
+    color: white;
   }
 
   .login
   {
     text-align: right;
+
+  }
+
+  .login .btn.white {
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
   }
 
   .menu
@@ -147,6 +157,11 @@ header
     justify-content: center;
     gap: 1rem;
     list-style: none;
+  }
+
+  .menu a {
+    color: white;
+    text-decoration: none;
   }
 
 
@@ -161,6 +176,10 @@ header
 main
 {
 
+
+
+}
+
 .jumbotron
   { 
     background-image: url('../img/jumbo.png');
@@ -170,9 +189,8 @@ main
     display: flex;
     align-items: center;
     text-align: center;
+    
   }
-
-}
 
 .jumbotron-content {
   display: flex;
