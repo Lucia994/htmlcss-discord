@@ -232,6 +232,20 @@ main
   background-color: black;
   color: white;
 }
+
+.invite_only h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.invite_only p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
 /* #endregion Main */
 
 
