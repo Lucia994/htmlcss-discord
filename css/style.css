@@ -191,6 +191,29 @@ main
   max-width: 700px;
   line-height: 1.5;
 }
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn.white {
+  background-color: white;
+  color: black;
+}
+
+.btn.black {
+  background-color: black;
+  color: white;
+}
 /* #endregion Main */
 
 
