@@ -17,7 +17,7 @@
 
   main
   {
-    background-color: lightblue;
+    background-color: transparent;
     min-height: 1200px;
   }
 
@@ -28,7 +28,7 @@
 
   section>.container
   {
-    background-color: green;
+  
     min-height: 300px;
 
   }
@@ -42,14 +42,14 @@
 
   .col-60
   {
-    background-color: lightpink;
-    height: 300px;
+    background-color: white;
+   
   }
 
   .col-40
   {
-    height: 300px;
-    background-color: lightcoral;
+   
+    background-color: white;
   }
 
   .col-lg
@@ -89,6 +89,7 @@
   max-width: 1200px;
   width: 80%;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .container-sm
@@ -107,11 +108,12 @@
 .col-60
 {
   width: 60%;
+  
 }
 
 .col-40
 {
-  width: 40%;
+  width: 40%; 
 }
 
 section
@@ -233,17 +235,23 @@ main
   color: white;
 }
 
-.invite_only h2 {
+.title {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
   text-align: left;
 }
 
-.invite_only p {
+.text {
   font-size: 1.1rem;
   line-height: 1.6;
   text-align: left;
+}
+
+.invite_only img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* #endregion Main */
